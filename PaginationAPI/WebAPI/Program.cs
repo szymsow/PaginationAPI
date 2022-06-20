@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebAPI;
 using WebAPI.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<PaginationDbContext>(options =>
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+await app.Seed();
 
 if (app.Environment.IsDevelopment())
 {

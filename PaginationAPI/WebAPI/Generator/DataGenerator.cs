@@ -1,11 +1,11 @@
 ﻿using Bogus;
 using WebAPI.Entities;
 
-namespace PaginationAPI.Core.DataGenerator
+namespace WebAPI.Generator
 {
-    public class DataGenerator
+    public static class DataGenerator
     {
-        public IEnumerable<Employee> GetEmployees(int count)
+        public static IEnumerable<Employee> GetEmployees(int count)
         {
             var addressGenerator = new Faker<Address>()
                 .RuleFor(a => a.City, f => f.Address.City())

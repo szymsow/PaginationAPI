@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{4BC55D28-A023-4BD3-BF6B-E17958EE02ED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationAPI.Core", "PaginationAPI.Core\PaginationAPI.Core.csproj", "{EE2AC578-8626-4295-A31D-09D060AE9552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{4BC55D28-A023-4BD3-BF6B-E17958EE02ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{4BC55D28-A023-4BD3-BF6B-E17958EE02ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC55D28-A023-4BD3-BF6B-E17958EE02ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC55D28-A023-4BD3-BF6B-E17958EE02ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE2AC578-8626-4295-A31D-09D060AE9552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE2AC578-8626-4295-A31D-09D060AE9552}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE2AC578-8626-4295-A31D-09D060AE9552}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE2AC578-8626-4295-A31D-09D060AE9552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
