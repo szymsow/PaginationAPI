@@ -5,6 +5,7 @@ using WebAPI.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<Seeder>();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddDbContext<PaginationDbContext>(options =>

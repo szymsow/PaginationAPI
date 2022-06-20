@@ -34,7 +34,7 @@ namespace WebAPI.Context
             modelBuilder.Entity<Employee>()
                 .Property(e => e.Email)
                 .HasColumnType("varchar")
-                .HasMaxLength(30)
+                .HasMaxLength(50)
                 .IsRequired();
 
             modelBuilder.Entity<Employee>()
@@ -55,7 +55,7 @@ namespace WebAPI.Context
             modelBuilder.Entity<Address>()
                 .Property(a => a.Country)
                 .HasColumnType("varchar")
-                .HasMaxLength(20)
+                .HasMaxLength(40)
                 .IsRequired();
 
             modelBuilder.Entity<Address>()
