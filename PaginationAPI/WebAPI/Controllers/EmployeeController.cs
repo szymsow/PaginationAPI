@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
             var employeesDto = _mapper.Map<List<EmployeeDto>>(sievedModels);
 
             var totalCount = await _sieveProcessor.Apply(query, results, 
-                applyFiltering: false,
+                applyPagination: false,
                 applySorting: false)
                 .CountAsync();
 
